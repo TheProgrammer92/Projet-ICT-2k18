@@ -1,0 +1,206 @@
+body{
+
+
+	background-image: url("../img/image/1.jpg");
+	background-size: cover;
+}
+
+
+#container1{
+
+	background-color: #383838;
+}
+.divRecherche{
+
+	margin-top: 10px;
+}
+
+.inputRecherche{
+
+	padding-top: 23px;
+	padding-bottom: 23px;
+}
+
+.iconMenu{
+
+	cursor: pointer;
+}
+
+
+/*management of notification*/
+#menu {
+
+width: 280px;
+
+
+}
+#menu{
+
+	position: fixed;
+	background-color: white;
+	height: 100%;
+	z-index: 800;
+	top:0px;
+
+	
+	
+}
+
+
+
+#headerMenu{
+
+	background-color:rgb(247, 247, 247);
+	box-shadow: 2px 2px 25px #EBEBEB;
+}
+
+#headerMenu h3{
+
+	color:#454545;
+	font-family: "Aileron";
+	margin-left: 0px;
+}
+#bodyMenu{
+
+
+	line-height: 15px;
+	height: 80%;
+
+}
+#bodyMenu h3{
+
+	color:#454545;
+	font-family: verdana;
+	margin-left: 0px;
+	font-size: 17px;
+	opacity: 0.9;
+}
+#bodyMenu ul li{
+
+
+	margin-top: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color:#454545;
+	font-family: "Aileron";
+	font-size: 20px;
+}
+#bodyMenu ul li:hover{
+
+	background-color:#E8E8E8;
+	cursor: pointer;
+}
+#menu{
+	
+	background-color: rgb(247, 247, 247);
+	margin-bottom: 5px;
+	border-bottom: 1px solid #E0E0E0;
+	left: -270px;
+
+}
+/*#menu:hover{
+
+	background-color:#E8E8E8;
+	cursor: pointer;
+
+}
+*/.divImgMenu{
+	padding-top: 15px;
+	padding-bottom: 80px;
+	
+}
+
+.menu{
+
+margin-top: 5px;
+
+
+}
+
+.menu  h4{
+
+
+	color: #525252 ;
+	font-family: "Aileron";
+	font-size: 20px;
+
+}
+.menu span{
+
+	color: #525252 ;
+}
+
+.dateMenu{
+
+	
+	color: #525252 ;
+	
+
+
+}
+
+.headerBodyMenu{
+	background-color: #FFFFFF;
+	color:#525252;
+
+	font-size: 18px;
+	line-height: 40px;
+	
+}
+
+
+.imgMembre{
+
+
+	border-radius: 105%;
+	
+	
+	cursor: pointer;
+}
+.container{
+
+	width: 1400px;
+}
+
+
+/*la parti des asticle proposition	*/
+
+#sectionPropo{
+
+
+	background-color: #383838;
+	margin-top: 25px;
+}
+
+#sectionPropo ul li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #F7F7F7;
+	margin-bottom: 15px;
+	border-bottom:1px solid #696969;
+
+
+}
+#sectionPropo ul li:hover{
+
+	cursor: pointer;
+}
+#sectionPropo ul li div:nth-child(2){
+
+	margin-left: 15px;
+
+
+}
+.titlePropo{
+
+	font-family: "Aileron";
+	font-size: 18px;
+}
+
+
+.descriptionPropo{
+
+	 font-family: "Aileron";
+	 font-size: 16px;
+}
+

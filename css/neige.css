@@ -1,0 +1,103 @@
+body{
+
+	min-height: 97%;
+	min-width: 98%;
+	background-size: cover;
+	
+	
+}
+
+.snow{
+  position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	background-color: #575757;
+
+}
+/*.snow{
+
+
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+.snow_layer{
+     left: -100px;
+     right: -100px;
+     perspective: 100px;
+	animation: wind 5s linear infinite alternate;
+}
+
+.snow_layer::after{
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+
+	height: 2000px;
+	background: url(../img/image/neige3.jpg);
+	animation: fallight 10s linear infinite;
+	transform: translateZ(50px);
+}
+
+.snow_layer: nth-child(1){
+
+animation-duration: 35s; 
+}
+.snow_layer: nth-child(1)::after{
+
+	background: url(../img/image/neige.jpg);
+	transform: translateZ(25px);
+	animation-name:fallblur; 
+
+	
+}
+
+.snow_layer: nth-child(2){
+
+transform: translateX(-50px); 
+}
+.snow_layer: nth-child(2)::after{
+
+	background: url(../img/image/neige2.jpg);
+	animation-duration: 25s;
+
+	
+}
+
+
+@keyframes fall{
+
+	from{
+		transform: translateY(-1000px);
+	}
+}
+
+
+@keyframes wind{
+	to{
+	  transform: translateX(50px);
+	}
+}
+
+@keyframes fallight{
+
+	from{
+		transform: translateY(-1000px) translateZ(50px) ;
+	}
+}
+
+@keyframes fallblur{
+
+	from{
+		transform: translateY(-1000px) translateZ(25 px) ;
+	}*/
+}

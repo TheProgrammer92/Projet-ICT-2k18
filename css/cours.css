@@ -1,0 +1,279 @@
+body{
+
+	margin: 0px;
+	padding: 0px;
+
+
+
+}
+
+
+
+#suivie{
+     	background-color: white;
+		line-height: 40px;
+		float: right;
+		margin-right: 50px;
+
+}
+
+
+#affiche_pdf{
+
+
+	/*width: 21%;
+	height: 40%;*/
+	border: 2px solid #fff;
+	
+	background-color: red;
+	box-shadow: 2px 2px 25px #00FA9A;
+
+}
+
+#entete_affiche_pdf{
+
+	background-color:#00FA9A;
+	
+	
+}
+
+.img_pdf{
+
+
+}
+
+
+.voir_pdf{
+    border-style: ridge;
+    padding-bottom: 2.6%;
+    padding-top: 2.6%;
+    padding-right: 10%;
+    padding-left :10%;
+	position: absolute;
+	text-decoration: none;
+	bottom: 4%;
+	left: 15%;
+	border:1px solid #f36a10;
+	color: #fff;
+	background-color:#f36a10;
+	border-radius: 3px; 
+}
+.voir_pdf:hover{
+	background-color: transparent;
+	color: #f36a10;
+}
+
+.refus_voir{
+    border-style: ridge;
+    padding-bottom: 2.6%;
+    padding-top: 2.6%;
+    padding-right: 10%;
+    padding-left :10%;
+	
+	text-decoration: none;
+	
+	border:1px solid #f36a10;
+	background-color: transparent;
+	color: #f36a10;
+	border-radius: 3px; 
+}
+.refus_voir:hover{
+  color: #fff;
+	background-color:#f36a10;
+
+}
+#message_me_pdf{
+
+
+	
+	
+	
+	text-align: center;
+	color: #474747;
+}
+
+
+
+#div_pdf{
+
+	border:1px solid #C1C1C1; 
+	
+	
+	overflow-y: auto;
+	   background-color: #fff;
+	   border-radius: 5px;
+
+
+   
+
+}
+
+
+.entete_liste_pdf {
+
+	background-color:#00FA9A;  /*#FFE4C4*/ /*#FAFAFA*/
+	
+}
+
+.loader{
+
+	
+ 
+    display: none;
+}
+
+.rechercher_pdf{
+
+
+	
+
+	padding-bottom: 1.5%;
+	padding-top: 1.5%;
+	
+     background-color:#00FA9A;
+	border-radius: 5px;
+}
+
+#liste{
+
+
+	
+	
+	height: 65.5%;
+
+	
+
+}
+
+
+
+#affichage{
+
+	
+
+
+	
+	background-color: transparent;
+
+	overflow: auto;
+	padding-top: 8%;
+}
+
+#affiche_final{
+
+
+	
+	margin-top: 0%;
+	
+    background-color: #CFCFCF;
+	
+	
+	
+}
+
+.img_affiche_final{
+
+	border-right:1px solid #CFCFCF;
+	
+	height: 25%;
+}
+.img_affiche_final img{
+
+	
+}
+
+
+
+#affiche_final:nth-child(odd){
+
+
+background-color: #F2F2F2;
+
+}
+
+#affiche_final {
+
+line-height: 45px;
+
+}
+
+.affiche_telechargement{
+
+   
+	position: absolute;
+	bottom: 0px;
+
+}
+.affiche_telechargement a{
+
+  color: #636363;
+
+}
+.affiche_taille{
+
+
+}
+
+.affiche_titre{
+	
+    
+
+	text-align: left;
+	
+    color: #636363;  
+	white-space: normal;
+	word-wrap: break-word;
+	text-decoration: underline;
+
+
+}
+
+
+#background{
+
+
+	
+	opacity: 1;
+	z-index: 155;
+	
+}
+
+/*gestion des cour*/
+
+#sectionCours{
+
+
+		line-height: 20px;
+		margin-top: 15px;
+		float: right;
+		margin-right: 50px;
+}
+#sectionCours .col-md-3{
+
+	width: 220px;
+}
+.listCodeMatiere{
+
+	background-color: white;
+}
+.enteteCodeMatiere{
+
+	background-color: #FF6347;
+}
+
+.listCodeMatiere ul{
+
+
+
+}
+
+.listCodeMatiere ul li{
+	text-align: center;
+	border-bottom:1px solid #E0E0E0;
+	margin-top: 0px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-family: "Aileron";
+	font-size: 20px;
+	color:#525252;
+}

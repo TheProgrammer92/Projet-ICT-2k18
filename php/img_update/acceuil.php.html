@@ -1,0 +1,293 @@
+
+<!-- saved from url=(0051)http://localhost/mon%20nouveau%20projet/acceuil.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>
+		
+	</title>
+	<link rel="stylesheet" type="text/css" href="./acceuil.php_files/index.css">
+      
+      <script src="./acceuil.php_files/jquery.js"></script>
+ 
+       <script src="./acceuil.php_files/jquery-ui.js"></script> 
+         
+      <script src="./acceuil.php_files/accueil.js"></script>
+      <script src="./acceuil.php_files/forme.js"></script>
+      <meta charset="utf8">
+
+</head>
+<body>
+
+<!-- ici sera la barre de suivie qui serra inclu toute l'application -->
+
+
+  <!-- inclusion de l'entete -->
+ 
+
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./acceuil.php_files/index.css">
+	 <meta charset="utf-8">
+      <script src="./acceuil.php_files/jquery.js"></script>
+
+       <script src="./acceuil.php_files/jquery-ui.js"></script> 
+         
+      <script src="./acceuil.php_files/accueil.js"></script>
+      <script src="./acceuil.php_files/forme.js"></script>
+
+
+
+  <!-- partie notification -->
+
+     
+
+    <!-- entete pour toute mes pages -->
+ <div id="entete"> 
+     <img src="./acceuil.php_files/logo.png" class="logo">
+
+      <!-- nous  mettons les liens vers autres page dans les ul -->
+     <ul type="none">
+
+     <li><a href="./acceuil.php_files/acceuil.php.html"> Parcours</a></li>
+
+     <li> <a href=""> Cours </a></li>
+
+      <li> <a href="http://localhost/mon%20nouveau%20projet/forums.php"> Forums </a></li>
+
+     <li> <a href=""> Competition </a></li>
+
+
+      </ul>
+   <!-- inserons une zone de recherche ici -->
+   
+   	
+   	<input type="search" name="recherche" placeholder="rechercher ici" class="recherche" style="width: 25%; box-shadow: rgb(204, 204, 204) 0px 0px 0px; border-color: rgb(190, 190, 190);">
+  
+
+
+   <!-- ici l'icone de notification -->
+
+   <img src="./acceuil.php_files/default.jpg" width="40" height="45" class="img_utilisateur"> 
+
+    <!-- partie option ou il y'a le lien vers le profil  -->
+     <div id="option" style="display: none;">
+           <a href="http://localhost/mon%20nouveau%20projet/update.php">  <div class="block1"> <span style="position: absolute; text-decoration: none;  left: 5%;" class="blo1"> <img src="./acceuil.php_files/default.png" width="20"> admin admin </span></div></a>
+
+        <div class="block2"> <span style="position: absolute; left: 5%;">  parametre </span></div>
+        <div class="block3"> <span style="position: absolute; left: 5%;"> aucun message </span></div>
+
+        <div class="block4"> <span style="position: absolute; left: 5%;"> <img src="./acceuil.php_files/no.jpg" width="20"> aucune notification </span></div>
+        <a href="http://localhost/mon%20nouveau%20projet/deconnexion.php">   <div class="block5"> <span style="position: absolute; left: 5%;"> <img src="./acceuil.php_files/deconnexion.png" width="20"> Déconnexion </span> </div></a>
+
+     </div>
+
+     <img src="./acceuil.php_files/images.png" class="img_messagerie" width="40" alt="message" title="messagerie">
+
+     
+
+
+
+  </div> <br><br>
+
+ 
+
+
+
+<div id="suivie">
+
+<a href="" style="text-decoration: none; position: absolute; left: 3%;"><span style="color: #FF4500; ">Acceuil</span>  <img src="./acceuil.php_files/next3.png" width="13" "="">  </a><span style="position: absolute; color: #A8A8A8;left: 10%;"> Parcours </span></div>
+
+<!-- script qui se lance au chargement de la page -->
+    
+
+
+<!--script jquery qui va animer le click sur la div si l'utilisateur est connecté -->
+
+<script>
+  
+  $(function () {
+
+  $('.cardre1').click(function () {
+    $("#arriere_plan").animate({"opacity":"0.5"},300);
+        
+    $('#page_inserer').show(500);
+  var i=1;
+
+   
+     
+  })
+  
+  $('.fermer').click(function () {
+
+    $('#page_inserer').hide(500);
+     $("#arriere_plan").animate({"opacity":"8"});
+    
+    
+  }) 
+    // body...
+  })
+</script>
+
+
+<div id="arriere_plan">
+<!-- cet image ci dessous pest l'image qui apparait a l'ouverture  de l'application -->
+<!-- <img src="img/image/fond.jpg" style="position: absolute; width: 100%; height: 100%; bottom: 2%; z-index:7" id="fond">  -->
+<script>
+
+  $(function() {
+  
+    $('#inclu_connect').css('display','none');
+
+
+
+  })
+
+</script>
+
+  
+
+       
+
+
+
+
+
+
+
+
+
+  <!-- nous entrons maintenant dans le body qui sera constituer que de 3 images -->
+  <div id="explorer">
+
+   <div class="cardre1"><img src="./acceuil.php_files/4.jpg" style="width: 100%; height: 88%; "> Creer un theme</div>
+  
+    <div class="cardre2"><img src="./acceuil.php_files/creation.jpg" style="width: 100%; height: 88%; "> Explorez vos creations</div>
+
+  	 <div class="cardre3"><img src="./acceuil.php_files/Communiquer.jpg" style="width: 100%; height: 88%;">Communiquez dans le monde</div>
+  	
+  	
+
+  </div>
+
+
+</div>
+
+  <!-- ici on va inclure lal page inserer -->
+  <div id="page_inserer" style="display: none;">
+ 
+
+
+	<title>inserer</title>
+	<link rel="stylesheet" type="text/css" href="./acceuil.php_files/inserer.css">
+
+
+
+<div class="mon_calque ui-draggable ui-draggable-handle">
+	   <span class="fermer"> fermer</span><br>
+	   <div class="titre">inserer theme</div><br>
+
+	   <form method="post" action="http://localhost/mon%20nouveau%20projet/php/inserer_php.php">
+	   	
+	   <label class="theme">theme</label>
+	      <select class="nom" required="" name="select">
+	      	 <option>developpement web</option>
+	      	  <option>formation</option>
+	      	   <option>ecole</option>
+	      	    <option>sur tout</option>
+	      	     <option>developpement web</option>
+
+	      </select>
+	   <br>
+
+	     <input type="file" name="fichier_pdf" class="inserer_image_theme"> <br>
+
+	    <label class="description"> description</label>  <input type="text" name="description" class="form_description" required="" maxlength="50">
+
+	    <span class="image"> image </span> <input type="file" name="file_image" id="file_image"> <label for="file_image"><img src="./acceuil.php_files/incr.jpg" width="12%" style="position: absolute; left: 48%; bottom: 15%;cursor: pointer;"></label> <br>
+
+	    <input type="submit" name="" class="submit" id="bouton_envoie">
+
+	   </form>
+       
+    
+
+
+   
+</div>
+
+ </div>
+
+ <!--  la partie parramettre qui contiendra l'inscription -->
+
+    
+
+<!-- ici serra la partie du reseau social -->
+
+<div id="reseau_social">
+ <div id="entete_menu">
+
+   <img src="./acceuil.php_files/search.png" title="search" width="35" style="position: absolute;  top: 5%; left: 3%; z-index: 2 " alt="menu parramettre">
+
+   <input type="search" name="recherche_social" placeholder="nom ou numero de telephone" class="search_social">
+    <img src="./acceuil.php_files/nof.png" width="45" title="paramettre" style="position: absolute; left: 82%; top: -0%; z-index: 2" alt="menu">
+      <br><br>
+
+      <ul>
+        <li>DISC.</li>
+        <li>STATUT</li>
+        <li>APPELS</li>
+        
+
+      </ul>
+    
+
+    </div>
+    <!--  <img src="IMG/icone/home5.png" width="40" style="position: absolute; bottom: 5%;">
+     <img src="IMG/icone/call2.png" width="40" style="position: absolute; bottom: 5%; left: 15%;">
+  -->
+  <br>
+  <div id="contact"> <span>Contact a la une</span></div>   
+  <!-- icone du message -->
+<img src="./acceuil.php_files/message.png" class="icons_message" width="60">
+</div>
+
+<!-- <div id="block_amis">
+    
+    <div class="entete_amis">
+
+    <img src="img/icone/retour.jpg" width="60"> <span style="position: absolute; left: 20%;color: #FFFFF3">Amis</span>
+
+    <img src="img/icone/add1.png" width="40" style="position: absolute; left: 70%; top: 4%;">
+      
+
+    </div> -->
+
+  
+
+<br>
+<!-- ici la gestion du system de messagerie et une div qui va souvrir au clicl sur l'image -->
+<!-- 
+   <div id="messagerie">
+     
+     <img src="img/icone/message.png" alt="">
+   </div>
+ -->
+<!-- the div of the low of the page that must content the information on the site and the snow -->
+
+  <!-- <div  id="footer">
+    
+      
+
+  </div> -->
+
+  <!-- banniere des cookie <-->
+   <div class="cookie_alert">
+     En  poursuivant votre navigation sur ce site, vous acceptez l'utilisation des cookies pour vous proposer des contenus et services adaptés a vos centres  d'interèts <br> <br>
+     <a href="">OK</a>
+   </div>
+
+
+
+
+
+
+
+  </body></html>

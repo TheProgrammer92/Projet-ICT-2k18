@@ -1,0 +1,141 @@
+
+body{
+
+padding: 0;
+	margin: 0;
+
+	background-color: #333333;
+	font-family:Aileron;
+}
+section {
+
+	position: relative;
+	top: 70px;
+	width:80%;
+	height: 50%;
+	z-index:5;
+
+	
+	
+	
+}
+
+
+section ul:nth-child(1) {
+
+	
+	min-height: 40%;
+	width:20%;
+	float: left;
+
+
+
+
+}
+section ul:nth-child(1) li {
+
+	display:inline-block;
+	width: 100%;
+	height: 40%;
+	
+	border-radius: 10px;
+	background-color: white;
+
+	box-shadow: 2px 2px 25px #1F1F1F;
+	cursor: pointer;
+
+}
+
+section ul:nth-child(1)  li div{
+	margin:0;
+	padding: 0;
+
+}
+
+
+section ul:nth-child(1)  li div:nth-child(1){
+
+	height: 200px;
+	
+
+	
+	
+}
+
+section ul:nth-child(1)  li div:nth-child(2) {
+  width: 100%;
+   height: 32%;
+   background-color: white;
+   overflow: hidden;
+   
+
+
+}
+
+
+
+section ul:nth-child(1)  li div:nth-child(2) p{
+	
+		
+		font-family:Aileron;
+		font-size: 20px;
+		text-align: center;
+		margin-top: 10px;
+		height: 105%;
+		width: 80%;
+		margin-left: 10px;
+		overflow: auto;
+		word-wrap: break-word;
+
+	}
+section ul:nth-child(1)  li div:nth-child(3){
+
+	
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	background-color: #333333;
+	height: 13%;
+	position: relative;
+	top: 15px;
+
+	hyphens: auto;
+	  text-overflow: ellipsis;
+	
+ word-wrap: break-word;
+	}
+
+
+section ul:nth-child(1)  li div:nth-child(3) p{
+	
+		color: #E3E3E3;
+		font-family: serif;
+		font-size: 20px;
+		text-align: center;
+		margin-top: -0px;
+		
+	}
+
+
+
+
+/*affiche du deuxime UL*/
+
+
+
+section ul:nth-child(2){
+
+
+width: 50%;
+min-height: 300px;
+float: right;
+color: white;
+margin-right: 220px;
+}
+
+section ul:nth-child(2) li{
+
+
+display: block;
+text-decoration: none;
+
+}

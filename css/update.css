@@ -1,0 +1,137 @@
+
+body{
+
+	margin:0px;
+	padding:0px;
+}
+
+#suivie{
+
+	background-color: white;
+	line-height: 40px;
+	float: right;
+	margin-right: 50px;
+}
+
+
+#sectionUpdate{
+
+	line-height: 40px;
+	
+	margin-top: 50px;
+	margin-right: 50px;
+
+
+
+
+}
+
+.btnUpdateImg{
+
+
+
+	font-family: "Aileron";
+	font-size: 20px;
+	border:1px solid #f36a10;
+	color: #fff;
+	background-color:#f36a10;
+	border-radius: 3px; 
+	padding-bottom: 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 5px;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+.btnUpdateImg:hover{
+
+		background-color: transparent;
+		color: #f36a10;
+}
+
+
+/*parti d'affichage des information*/
+
+#afficheInfo{
+	margin-right: 30px;
+	margin-top: 30px;
+	
+}
+
+#afficheInfo div{
+
+	background-color: #CFCFCF;
+}
+
+.namePrenom{
+
+	font-family: "Aileron";
+	font-size: 20px;
+
+}
+
+.crayons{
+
+	position: absolute;
+	 top:-25px; 
+	 left: 160px;
+	  cursor: pointer;
+}
+
+#afficheInfo .row{
+
+	margin-top: 35px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+		margin-left: 30px;
+}
+
+.competence{
+	margin-bottom: 115px;
+	font-family: "Aileron";
+
+	font-size: 23px;
+}
+
+.crayon{
+
+	
+	left: 95%;
+	top:-10%;
+	cursor: pointer;
+	position: absolute;
+
+}
+
+#sectionFormulaire{
+
+	 border: 1px solid #ccc;
+	border-radius: 15px;
+	left: 30%;
+	top: 10%;
+
+	position: absolute;
+	display: none;
+ 	background-color: #EBEBEB;
+}
+#formUpdate input
+{		
+	padding-bottom: 21px;
+	padding-top: 21px;
+
+}
+
+#formUpdate button{
+
+	margin-left: 70px;
+}
+
+.selects{
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 20px;
+	margin-left: 30px;
+	border:1px solid #ccc;
+}

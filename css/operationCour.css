@@ -1,0 +1,255 @@
+body{
+
+	font-family: "Aileron";
+}
+/*gestion de operation sur les cours*/
+#section2{
+
+	border:1px solid #CFCFCF;
+	background-color: white;
+	
+	
+}
+#section2 div:nth-child(2){
+border:none;
+
+}
+.parcourOperation ul{
+
+	list-style-type:none;
+
+
+}
+.parcourOperation a{
+
+	text-decoration: none;
+}
+
+.parcourOperation ul li{
+
+background-color: #fff;
+
+padding-bottom: 25px;
+padding-top: 25px;
+border-bottom:1px solid #CFCFCF;
+text-align: center;
+font-family: "Aileron";
+color: rgba(2,2,2,0.6);
+
+
+font-size: 15;
+}
+.parcourOperation ul li:hover{
+
+	background-color: rgb(236, 240, 241);
+	cursor: pointer;
+}
+.parcourOperation ul li:nth-child(1){
+
+
+}
+#container2{
+	z-index: 500;
+}
+
+
+#container3{
+
+	/*background-color:rgb(236, 240, 241);*/
+	 background-color: white;
+	 padding-bottom: 20px;
+	 padding-top: 20px;
+	
+	
+}
+
+#container3 .col-md-3{
+
+	width: 280px;
+
+
+}
+.fermer{
+
+	
+	font-family: "Aileron";
+	color:red;
+	font-size: 20px;
+}
+
+.fermer:hover{
+
+
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/*traitement sur les modification*/
+#iframe{
+	z-index: 500;
+	border:none;
+
+
+}
+
+#sectionModifie{
+	/*background-color:rgba(236, 240, 241, 0.8);*/
+	/*box-shadow: 0px 0px 10px rgb(189, 195, 199);*/
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-family:'Aileron';
+	font-size: 20px ;
+	margin-top: 50px;
+	position: relative;
+	z-index: 1000;
+		
+}
+#sectionModifie label{
+	color:#6B6B6B;
+}
+.replaceModifie{
+	background-color:rgba(236, 240, 241, 0.8);
+	box-shadow: 0px 0px 10px rgb(189, 195, 199);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-family:'Aileron';
+	font-size: 20px ;
+
+}
+legend{
+	color: rgb(52, 152, 219);
+}
+input{
+
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+/*Gestion de l'insertion du pdf*/
+
+#section3{
+	
+	z-index: 1000;
+	background-color:rgba(236, 240, 241, 0.5);
+	box-shadow: 0px 0px 10px rgb(189, 195, 199);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#formProfesseur{
+
+
+	
+	font-family:'Aileron';font-size: 20px ;
+	
+
+
+}
+
+.submitModifCour{
+
+
+	    background-color: #FF6347;
+	    color: white;
+	    border: none;
+	    border-radius: 4px;
+	    cursor: pointer;
+	    
+	    border:1px solid #FF6347;
+    
+}
+
+.submitModifCour:hover{
+
+	background-color: transparent;
+	color: #FF6347;
+}
+
+
+legend{
+
+	color: rgb(52, 152, 219);
+	font-weight: bold;
+	font-size: 23
+}
+
+.formLabel3 .col-md-5{
+	margin-left: 250px;
+
+}
+#text{
+
+}
+
+.success{
+
+	color: rgb(52, 152, 219);
+	font-weight: bold;
+	font-size: 23
+}
+
+
+
+
+/*Operations on the course view*/
+
+#section4{
+	
+	background-color:rgba(236, 240, 241, 0.8);
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 400px;
+	overflow-y: auto;
+}
+.affichePdf{
+
+}
+.titrePdfAffiche{
+
+	margin-bottom: 10px;
+	margin-top: 5px;
+	color:#333;
+	
+	
+	
+
+}
+.titrePdfAffiche span{
+	font-size: 20px;
+	text-decoration: underline;
+
+}
+.descriptionPdfAffiche{
+
+	
+}
+.affichePdf{
+	border-top:1px solid #CFCFCF;
+	border-bottom:1px solid #CFCFCF;
+	background-color:rgba(236, 240, 241, 0.8);
+	margin-bottom: 25px;
+
+
+}
+
+.photoPdf{
+	border-right:1px solid #CFCFCF;
+
+}
+.affichePdfDescription{
+
+	height: 200px;
+}
+
+.telecharger{
+font-size: 18px;
+
+}
+.telecharger:hover{
+
+	text-decoration: underline;
+	cursor: pointer;
+}

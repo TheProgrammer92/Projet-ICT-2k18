@@ -1,0 +1,225 @@
+
+body{
+
+background-color:#F7F7F7;
+font-family: "Aileron";
+overflow: none;
+
+}
+
+
+.logo{
+
+	float: left;
+	
+	height: 80px;
+
+	
+}
+
+
+.container{
+
+	
+}
+
+nav{
+padding-top: 0px;
+background-color: #FEFFF1;
+border-radius: 5px;
+margin-top: 6px;
+
+
+	
+}
+
+nav .ulNav li{
+
+
+	text-decoration: none;
+	font-family: verdana;
+	margin-top: 17px;
+    font-size: 125%;
+
+
+
+}
+
+nav li a{
+color:#848484;
+
+}
+
+nav .ulNav li a:hover{
+	
+		background-color: transparent;
+		color: #4A4A4A;
+
+}
+
+
+.recherche{
+
+	padding-bottom: 15px;
+	padding-top: 20px;
+
+
+}
+
+
+
+
+.btnSeConnecter{
+
+
+
+	font-family: "Aileron";
+	font-size: 15px;
+	border:1px solid #f36a10;
+	color: #fff;
+	background-color:#f36a10;
+	border-radius: 3px; 
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	margin-left: 15px;
+}
+.btnSeConnecter:hover{
+
+		background-color: transparent;
+		color: #f36a10;
+}
+
+#menu{
+
+
+	position: relative;
+}
+.monMenu{
+
+	position: absolute;
+
+	margin-top: 10px;
+	z-index: 20;
+	
+	
+	
+}
+#menu li{
+		background-color: #ffff;
+
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 5px;
+	color: #7F7F7F;
+	font-family: "Aileron";
+	font-size: 20px;
+	
+}
+#menu li:hover{
+		
+
+	
+}
+.img_utilisateur{
+
+	border-radius: 105%;
+	
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+/*management of notification*/
+ #notification {
+
+width: 410px;
+
+
+}
+#notification{
+
+	position: fixed;
+	background-color: white;
+	height: 100%;
+	left:1550px;
+	z-index: 800;
+	
+}
+
+
+
+#headerNotify{
+
+	background-color:rgb(247, 247, 247);
+	box-shadow: 2px 2px 25px #EBEBEB;
+}
+
+#headerNotify h3{
+
+	color:#454545;
+	font-family: "Aileron";
+	margin-left: 0px;
+}
+#bodyNotify{
+
+	overflow-y: auto;
+	line-height: 15px;
+	height: 80%;
+
+}
+#Notify{
+	margin-top: 5px;
+	background-color: rgb(247, 247, 247);
+	margin-bottom: 5px;
+	border-bottom: 1px solid #E0E0E0;
+}
+#notify:hover{
+
+	background-color:#E8E8E8;
+	cursor: pointer;
+
+}
+.divImgNotify{
+	padding-top: 15px;
+	padding-bottom: 80px;
+	
+}
+
+.notify{
+
+margin-top: 5px;
+
+
+}
+
+.notify  h4{
+
+
+	color: #525252 ;
+	font-family: "Aileron";
+	font-size: 20px;
+
+}
+.notify span{
+
+	color: #525252 ;
+}
+
+.dateNotify{
+
+	
+	color: #525252 ;
+	
+
+
+}
+
+.headerBodyNotify{
+	background-color: #FFFFFF;
+	color:#525252;
+
+	font-size: 18px;
+	line-height: 40px;
+	
+}

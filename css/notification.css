@@ -1,0 +1,15 @@
+body{
+
+	margin:0px;
+	padding: 0px;
+}
+
+
+#notification{
+
+	background-color:#363636;
+    position: absolute;
+    left:66em;
+	width:30%;
+	height:100%; 
+}

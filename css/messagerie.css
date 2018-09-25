@@ -1,0 +1,204 @@
+body{
+
+	margin:0px;
+	padding:0px;
+}
+.container{
+
+min-height: 500px;
+}
+
+.messagerie{
+
+
+	border:2px solid #218868;
+	background-color: white;
+	box-shadow: 2px 2px 12px #218868;
+	display: none;
+
+
+}
+
+
+.entete_messagerie{
+
+	
+	padding-bottom: 70px;
+	
+	background-color:#218868; 
+}
+
+
+
+/*ici le profil accuil qui est creé dans la partie php*/
+/*accueil de la messagerie*/
+.accueil_affiche{
+
+height: 392px;
+  overflow-y: auto;
+  font-family: serif;
+  font-size: 15px;
+
+
+}
+.profil_accueil{
+   
+   border-bottom: 1px solid #CFCFCF;
+   line-height: 60px;
+   cursor: pointer;
+	
+}
+
+.nouveau_message{
+	position: absolute; top:420px;
+
+	left: 320px;
+	cursor:pointer;
+}
+
+
+/*maintenant la gestion de l'affichage du nouveau membre */
+
+.new_message_messagerie{
+
+	background-color: #fff;
+	border:1px solid #218868;
+	display: none;
+
+
+}
+.entete_new_message{
+
+	padding-bottom: 70px;
+	
+	background-color:#218868; 
+
+}
+
+.liste_membre{
+
+  height: 392px;
+  overflow-y: scroll;
+  font-family: serif;
+  font-size: 15px;
+
+}
+
+.profil{
+
+	border-bottom: 1px solid #CFCFCF;
+   line-height: 60px;
+   cursor: pointer;
+}
+
+
+/*parti d'affichage et d'envoie d'image*/
+
+.affiche_conversation{
+
+
+  word-wrap: break-word;
+	background-color: #fff;
+	border:1px solid #218868;
+display: none;
+}
+
+
+.entete_affiche_conversation{
+
+    
+	padding-bottom: 10px;
+	
+	background-color:#218868
+
+}
+
+.corp_conversation{
+
+	height: 330px;
+  overflow-y: auto;
+  font-family: serif;
+  font-size: 15px;
+
+}
+.footer_conversation{
+	background-color: #218868;
+	min-width: 108.5%;
+
+	margin-left: -15px;
+}
+
+#conversation{
+
+
+	border:1px solid #CFCFCF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: 5px;
+	margin-left: 25px;
+}
+#submit{
+     position: relative;
+     bottom:10px;
+     left: 15px;
+	 padding-top: 2%;
+	  padding-bottom: 2%;
+	  padding-left: 4%;
+	  padding-right: 3%;
+	   background-color: #FEFEF2;
+	   color: #333333;
+	   border-radius: 3px;
+	   
+	  text-shadow: 0 -1px 0 #FEFEF2;
+	   
+	  border:1px solid #CFCFCF ;
+}
+.capture{
+
+  	position: relative;
+     bottom:20px;
+     left: 10px;
+
+}
+
+
+/*pour l'affichage des msg*/
+
+.affiche{
+
+
+ 
+	margin-top: 13px;
+	margin-left: 10px;
+	background-color: #FAFAFA;
+	border-radius: 5px;
+}
+
+
+.affiche_re{
+
+	 background-color: #90EE90;
+	 margin-top: 13px;
+	 border-radius: 5px;
+
+}
+
+
+.sms{
+
+	
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	top: 490px;
+	right: 20px;
+
+	z-index: 500;
+}
+
+
+.col-xs-10{
+
+
+	height: 10px;
+}

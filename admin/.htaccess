@@ -1,0 +1,4 @@
+AuthName "cette page est protegé"
+AuthType Basic
+AuthUserFile "C:\wamp64\www\monNouveauProjet\admin\.htpasswd"
+Require valid-user

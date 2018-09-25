@@ -1,0 +1,157 @@
+.mon_calque{ 
+  background-color: #F4F4F4;
+  position: absolute;
+  left: 15cm;
+  top: 4cm;
+  width: 13.599cm;
+  height: 8.467cm;
+  z-index: 2;
+  float: left;
+  border: 1px solid #ccc;
+
+
+}
+.fermer{
+  font-size: 0.388cm;
+  font-family: "Tahoma";
+  color: rgb( 255, 51, 51 );
+  text-align: left;
+  position: absolute;
+  left: 10.1515333333333cm;
+  top: 0cm;
+  width: 1.143cm;
+  height: 0.305cm;
+  z-index: 14;
+  cursor: pointer;
+}
+
+.fermer:hover{
+  text-decoration: underline;
+}
+
+.titre {
+  border-width: 0.008cm;
+  border-color: rgb( 154, 154, 154 );
+  border-style: solid;
+  background-color: rgb( 154, 154, 154 );
+  position: absolute;
+  left: 1.719cm;
+  top: 0.804cm;
+  width: 8.314cm;
+  height: 0.974cm;
+  z-index: 10;
+}
+.inserer_theme {
+  font-size: 0.423cm;
+  font-family: "Tahoma";
+  color: rgb( 204, 204, 204 );
+  text-align: left;
+  position: absolute;
+  left: 4.35186666666667cm;
+  top: 0.9906cm;
+  width: 3.209cm;
+  height: 0.33cm;
+  
+  z-index: 11;
+}
+.theme {
+  font-size: 0.423cm;
+  font-family: "Tahoma";
+  color:#515151;
+  text-align: left;
+  position: absolute;
+  left: 3.42053333333333cm;
+  top: 2.4638cm;
+  width: 1.168cm;
+  height: 0.33cm;
+  z-index: 13;
+}
+
+.nom {
+  border-width: 0.008cm;
+  border-color: black;
+  border-style: ridge;
+  border-radius: 0.071cm;
+  background-color:white;
+  position: absolute;
+  left: 5.326cm;
+  top: 2.218cm;
+  width: 4.707cm;
+  height: 0.821cm;
+  z-index: 10;
+}
+
+.inserer_image_theme {
+  border-width: 0.008cm;
+  border-color: rgb( 0, 0, 0 );
+  border-style: solid;
+  border-radius: 0.071cm;
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 5.402cm;
+  top: 3.522cm;
+  width: 4.657cm;
+  height: 0.864cm;
+  z-index: 9;
+}
+.form_description {
+  border-width: 0.008cm;
+  border-color: rgb( 0, 0, 0 );
+  border-style: solid;
+  border-radius: 0.071cm;
+  /*background-color: rgb( 255, 255, 255 );*/
+  background-color: white;
+  position: absolute;
+  left: 5.478cm;
+  top: 4.758cm;
+  width: 4.58cm;
+  height: 0.872cm;
+  z-index: 6;
+}
+
+
+.description {
+  font-size: 0.423cm;
+  font-family: "Tahoma";
+  color: #515151;
+  text-align: left;
+  position: absolute;
+  left: 3.33586666666667cm;
+  top: 5.02073333333333cm;
+  width: 1.99cm;
+  height: 0.406cm;
+  z-index: 7;
+}
+.image {
+  font-size: 0.388cm;
+  font-family: "Tahoma";
+  color: #515151;
+  text-align: left;
+  
+  position: absolute;
+  left: 3.41206666666667cm;
+  top: 6.54473333333333cm;
+  width: 1.008cm;
+  height: 0.356cm;
+  z-index: 3;
+}
+
+.submit {
+  border-width: 0.008cm;
+  border-color: rgb( 0, 0, 0 );
+  border-style: solid;
+  border-radius: 0.071cm;
+  background-color: rgb( 255, 153, 153 );
+  position: absolute;
+  left: 3.717cm;
+  top: 9cm;
+  width: 4.326cm;
+  height: 0.821cm;
+  z-index: 4;
+}
+
+#file_image{
+  position: absolute;
+   bottom: 150%;
+   visibility: hidden;
+}

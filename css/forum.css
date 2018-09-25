@@ -1,0 +1,354 @@
+body{
+	overflow:none;
+	margin:0;
+	padding:0;
+	font-family: "Aileron";
+}
+
+#suivie{
+
+	background-color: white;
+	line-height: 40px;
+	float: right;
+	margin-right: 50px;
+}
+
+
+#categorie{
+    background-color: #D9D9D9;
+
+	margin-left:1%;
+	
+
+    color: #525252;
+
+	width: 30%;
+	height: 25%;
+	border-bottom:1px solid red;
+}
+
+#categorie:hover{
+	background-color: #ADADAD;
+}
+ a{
+ 	text-decoration: none;
+ }
+.titre{
+	
+	
+	
+
+	text-decoration: none;
+	
+	font-family: "Aileron";
+	
+}
+.titre a{
+	color: #4A4A4A;
+	font-size:25px;
+}
+.nom_cat{
+	
+	color: #4A4A4A;
+	font-size: 20px;
+}
+
+
+.dernier{
+
+
+}
+#afficheForums {
+
+	
+	
+		
+
+}
+.categorie_design
+{
+ 		margin-top: 50px;
+ 		padding:0;
+
+      border-top:1px solid #848484;
+     
+}
+
+
+/* css pour l'ajout du forum , donc la partie des topics */
+   /*bouton  qui va permettre de creer le topics*/
+
+  .creer_topics{   
+  
+  padding-top: 0.4%;
+  padding-bottom: 0.3%;
+  padding-left: 1.5%;
+
+   background-color: #FEFEF2;
+   color: #333333;
+   border-radius: 1px;
+   
+  text-shadow: 0 -1px 0 #FEFEF2;
+
+  border:1px solid #FEFEF2 ;
+  }
+#new_topics{
+
+    width: 55%;
+   
+   
+   
+	border:none;
+	border:1px solid white;
+	/*background-color: white;*/
+ 
+}
+
+
+
+.entete_topics{
+	
+	border:1px solid #8B8B83;
+	
+	height: 7%;
+	
+	background-color: #FF6347;
+}
+
+.entete_topics span{
+
+	color:#FFFAF0;
+	margin-left: 3%;
+    
+}
+#corp_topics{
+
+	
+
+	border:1px solid transparent;
+}
+.form-group{
+
+	margin-left: 60px;
+}
+input[type=text]{
+	
+	   
+
+   
+	 width: 400px;
+   margin-right: 50px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+
+    top: 0%;
+
+
+}
+select {
+
+ 	  
+     width: 400px;
+     margin-right: 130px;
+    padding-right: 45%;
+    padding: 12px 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:     margin-left: 5%;
+
+
+   
+    
+}
+
+.textarea{
+
+	 margin-left: 40px;
+	 border-top:1px solid #848484;
+
+}
+
+
+/*editeur wysibb*/
+
+ 
+label{
+	color: #8B8B83;
+	
+
+
+	
+}
+
+.check{
+	 margin-left: 10px;
+}
+
+.submit{
+
+	 
+    background-color: #FF6347;
+    color: white;
+    padding: 12px 12px;
+    margin: 8px 0;
+    margin-left: 0%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+  
+    
+}
+
+
+
+/*toujours dans topics , ici l'affichage des topics*/
+
+#topicsShow a{
+text-decoration: none;
+
+}
+.affichage_topics{
+
+
+margin-bottom:1%;
+background-color:#EBEBEB;
+
+margin-left:25px;padding-top: 10px;
+padding-bottom: 10px; 
+border-bottom:1px solid #FF6347;
+text-decoration: none;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+
+.affichage_topics:hover{
+	background-color: #E0E0E0;
+	cursor: pointer;
+	text-decoration: none;
+
+}
+
+
+.message_topics{
+
+	color: #4A4A4A
+
+}
+
+.date_topics{
+
+	color: #7f8c8d;
+}
+.createur_topics{
+
+
+	color: #7f8c8d;
+}
+
+
+/*gerons ici l'affichage des topics et leur contenu*/
+.sujet_titre{
+
+	
+	color: #4F4F4F;
+}
+
+.prenom_auteur{
+
+
+	color: #4F4F4F;
+}
+
+.avatar_auteur{
+
+	
+	margin-top: 1%;
+	
+}
+
+.contenu_topic{
+
+	font-size: 20px;
+	color: #3D3D3D;
+}
+
+
+.view_topic{
+
+	
+	
+	margin-bottom: 20px;
+	min-height:280px;
+	background:#DBDBDB;
+	margin-left: 130px;
+	cursor:pointer;
+	
+
+}
+
+.view_topic:hover{
+
+	background-color: #EBEBEB;
+}
+
+
+/*ici la gestion des reponse aux topics*/
+
+.view_topic_autor{
+
+	
+	min-height:280px;
+
+
+
+}
+
+
+.topic_reponse{
+
+	
+}
+.topic_reponse_submit{
+
+	
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin-right: 110px;
+	background-color: white;
+	border:none;
+
+
+}
+
+.reponse_msg{
+  color: red;
+	
+
+
+}
+
+/*gestion de a variable i de la pagination*/
+
+#editor{
+
+	
+	height: 105%;
+	
+}
+
+.up{
+position: relative;
+margin-right: 80px;
+bottom: 300px;
+
+}
+

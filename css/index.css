@@ -1,0 +1,129 @@
+body{
+
+	margin:0px;
+	padding:0px;
+}
+
+#suivie{
+
+	background-color: white;
+	line-height: 40px;
+	float: right;
+	margin-right: 50px;
+}
+
+
+/*gestion du contenu de l'accueil , les blocks et autres..*/
+#blocks{
+
+	
+	line-height: 40px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+
+}
+#blocks .block{
+
+	cursor: pointer;
+	margin-top: 25px;
+
+   
+}
+
+#blocks .block div:nth-child(1){
+
+	min-height: 250px;
+	 border-top-right-radius: 10px;
+	  border-top-left-radius: 10px;
+	 width:100%;
+	 background-size:cover;
+
+}
+
+#blocks .block div:nth-child(2){
+
+
+	width: 100%;
+	 text-align: 
+	 center;color: #363636;
+	 color:#848484;
+	font-size: 125%; 
+	background-color: white;
+
+}
+
+
+/*la partie du footer*/
+.container-footer{
+	
+	min-height: 130px;
+
+	background-color: #545454;
+}
+.footer{
+
+	
+}
+
+
+
+.cookie_alert{
+   
+	background-color: #3D3D3D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+	position: relative;
+	left: -15%;
+	bottom:10px;
+	color: #CCCCCC;
+	
+	border-radius: 8px;
+	box-shadow: 2px 2px 25px #FF6347;
+
+	z-index: 6;
+
+}
+.cookie_alert p{
+
+		font-family: "Aileron";
+		font-size: 18px;
+
+	
+}
+.cookie_alert a{
+      padding: 4% 30% 4% 30%;
+   
+	 border-radius: 5%;
+	margin-left: 25px;
+	text-decoration: none;
+	border: 1px solid #FF6347;
+	box-shadow: 2px 2px 25px #FF6347;
+	
+	color: #CCCCCC;
+	border-radius: 3px;
+	cursor: pointer;
+	
+	
+
+}
+
+.sectionSms{
+	position: absolute;
+	top: 90px;
+
+
+}
+
+@media screen and (max-width: 768px) {
+	.cookie_alert{
+
+		display: none;
+	}
+  .sectionSms{
+
+  	display: none;
+  }
+}
+

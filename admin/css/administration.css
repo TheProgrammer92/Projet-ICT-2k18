@@ -1,0 +1,153 @@
+#liste_membre{
+
+	width: 30%;
+	min-height: 50%;
+	
+	border:1px solid red;
+}
+
+#liste_membre div{
+  
+
+  margin-bottom: 5%;
+
+}
+
+
+.img_avatar{
+
+	width: 13%;
+	height: 8%;
+	border-radius: 50px;
+}
+
+.name_prenom{
+	position: absolute;
+}
+
+
+.corbeille{
+
+	position: absolute;
+	margin-left: 10%;
+	width: 3%;
+	height: 5.5%;
+	cursor: pointer;
+}
+
+/*liste des secretaire*/
+
+#listeSecretaire{
+	
+	border:1px solid red;
+	width: 25%;
+	float:right
+
+}
+
+
+#listeSecretaire span{
+
+	font-size: 22px;
+
+	
+}
+.prenomSecretaire{
+	position: absolute;
+}
+
+
+.corbeilleSecretaire{
+
+	position: absolute;
+	margin-left: 10%;
+	width: 3%;
+	height: 5.5%;
+	cursor: pointer;
+}
+
+/*ici le formulaire d'ajout de la secreataire*/
+
+
+.error_add{
+
+	float: right;
+	
+	margin-left:20px;
+	font-size: 22px;
+	color: red;
+
+}
+#addSecretaire{
+
+	
+	width: 20%;
+	float: right;
+	min-height: 30%;
+	border: 1px solid red;
+}
+#form{
+	margin-top: 30px;
+	 width: 75%;
+	 height: 40%;
+	 border:1px solid #757575;
+	 float: left;
+	 border-radius: 8px;
+	 z-index: 10;
+	background-color: white;
+	 
+}
+#form .titleCour {
+
+	
+		text-align: center;
+		font-family:Aileron;
+		font-size: 25px;
+
+}
+ #form div{
+
+ 	
+ 	height: 71%;
+ 	margin-top: 40px;
+ 	font-family:Aileron;
+ 	color: #7F7F7F;
+ }
+
+#form div input[type=text],#form div input[type=email],textarea{
+	 width: 70%;
+    padding: 10px 27px;
+    display:block;
+    margin-top: 10px;
+    margin-left: 45px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    
+
+}
+
+
+
+.submit{
+
+	   width:50%;
+    background-color: #FF6347;
+    color: white;
+    padding: 15px 15px;
+    margin: 20px 0;
+    margin-left: 75px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    border:1px solid #FF6347;
+    
+}
+
+.submit:hover{
+
+	background-color: transparent;
+	color: #FF6347;
+}

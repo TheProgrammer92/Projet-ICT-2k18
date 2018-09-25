@@ -1,0 +1,77 @@
+body{
+		margin:0;
+		padding:0;
+		overflow-x:hidden;
+		overflow-y:hidden;
+	        }
+
+.chargement1{
+	color: color;
+
+	position: absolute;
+	left: 45%;
+	bottom: 45%;
+	font-family: verdana;
+	font-size: 30;
+	display: none;
+
+}
+
+.chargement2{
+	color: color;
+
+	position: absolute;
+	left: 45%;
+	bottom: 45%;
+	font-family: verdana;
+	font-size: 30;
+	display: none;
+
+}	
+.chargement3{
+	color: color;
+
+	position: absolute;
+	left: 45%;
+	bottom: 45%;
+	font-family: verdana;
+	font-size: 30;
+	display: none;
+
+}	
+.chargement4{
+	color: color;
+
+	position: absolute;
+	left: 45%;
+	bottom: 45%;
+	font-family: verdana;
+	font-size: 30;
+	display: none;
+
+}	
+.chargement5{
+	color: color;
+
+	position: absolute;
+	left: 45%;
+	bottom: 45%;
+	font-family: verdana;
+	font-size: 30;
+	display: none;
+
+}		        
+
+
+
+.chargement6{
+	color: color;
+
+	position: absolute;
+	left: 45%;
+	bottom: 45%;
+	font-family: verdana;
+	font-size: 30;
+	display: none;
+
+}	
